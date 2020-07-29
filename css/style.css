@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&family=Roboto:wght@100;400;700&display=swap');
+
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto', sans-serif;*/
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #F8F9FC;
+  font-family: 'Roboto', sans-serif;;
+  color: rgb(80,80,80);
+  font-size: 17px;
+}
+h1 {
+  font-size: 32px;
+}
+p {
+  font-family: 'Open Sans', sans-serif;
+  color: #6B72E1;
+}
+
+a {
+  text-decoration: none;
+  color: 3282b8;
+  transition: 0.1;
+}
+a:hover {
+  color: 0f4c75;
+}
+.btn-big {
+  background:rgb(177, 156, 217 );
+  border-radius: 2px;
+  width: 150px;
+  display:inline-block;
+  color: white;
+  font-weight: bold;
+}
+.btn-big:hover{
+  background:rgb(177, 156, 250 );
+  border-radius: 4px;
+  width: 150px;
+  color: rgb(192, 192, 192);
+  display:inline-block;
+  font-weight: bold;
+}
+
+ul {
+  list-style: none;
+  padding: 0px;
+}
+li{
+  display: inline-block;
+  padding: 5px;
+}
+img {
+  text-align: center;
+  width:150px;
+  border-radius: 75px;
+  box-shadow: 1px 2px 5px #D3D3D3;
+}
+div {
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  width: 50vw;
+  box-shadow: 1px 2px 5px #D3D3D3;
+  border-radius: 2px;
+  text-align: center;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+p {
+  font-size: 15px;
+  }
+}
+
+@media (max-width: 720px) {
+  h1 {
+    font-size:1em;
+  }
+  p {
+    font-size: 0.75em;
+  }
+  img {
+    text-align: center;
+    width:20vw;
+    border-radius: 10vw;
+    box-shadow: 1px 2px 5px #D3D3D3;
+    margin-bottom: 20px;
+  }
+  div{
+    width: 70vw;
+  }
+}
+
+@media (max-width: 540px) {
+ h1 {
+  font-size: 0.8em;
+ }
+ h2{
+  font-size: 0.8em;
+ }
+ div {
+  width: 75vw;
+ }
+}
